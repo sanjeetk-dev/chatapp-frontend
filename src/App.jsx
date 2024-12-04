@@ -19,9 +19,7 @@ const AdminLogin = lazy(() => import("./pages/admin/AdminLogin"));
 const Dashboard = lazy(() => import("./pages/admin/Dashboard"));
 const UserManagement = lazy(() => import("./pages/admin/UserManagement"));
 const ChatManagement = lazy(() => import("./pages/admin/ChatManagement"));
-const MessagesManagement = lazy(() =>
-  import("./pages/admin/MessageManagement")
-);
+const MessagesManagement = lazy(() => import("./pages/admin/MessageManagement"));
 
 const App = () => {
   const { user, loader } = useSelector((state) => state.auth);
